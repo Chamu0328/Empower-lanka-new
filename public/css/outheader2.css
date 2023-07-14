@@ -1,0 +1,60 @@
+body::before {
+    background:url(../img/box_g.jpg);
+    background-size: cover;
+    content: '';
+    opacity:0.4;   
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+nav{
+    background-color: #9059d8;
+    margin-top:0 ;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+.empnavbar{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loggeduserpic{
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.loggeduserpic img{
+    display: block;
+    width: 100%;
+}
+.empowerlinks{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.empowerlogo{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    margin-top: 4px;
+    color: white;
+}
+.empowerlinks i{
+    font-size: 20px;
+    color: white;
+}
+.linklabel{
+    cursor: pointer;
+}
